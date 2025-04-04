@@ -160,9 +160,9 @@ const MakePayment = asyncHandler(async (req, res) => {
     cus_city: "Dhaka",
     cus_country: "Bangladesh",
     opt_a: id,
-    success_url: "http://localhost:5000/api/orders/callback",
-    fail_url: "http://localhost:5000/api/orders/callback",
-    cancel_url: "http://localhost:5000/api/orders/callback",
+    success_url: "https://backendhealth-nanv.onrender.com//api/orders/callback",
+    fail_url: "https://backendhealth-nanv.onrender.com//api/orders/callback",
+    cancel_url: "https://backendhealth-nanv.onrender.com//api/orders/callback",
     type: "json", //This is must required for JSON request
   };
 
